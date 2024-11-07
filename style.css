@@ -1,0 +1,43 @@
+.class1 .class2{
+    background-color: red;
+}
+
+.class1.class2{
+    background-color: blue;
+}
+div[data-color]{
+    color:red
+}
+div[data-background]{
+    color:yellow
+}
+[class*="foo"]{
+    color:red
+}
+[class~="color-red"]{
+    color:red
+}
+p+p{
+    color:red
+}
+p~p{
+    color:red
+}
+.warning{
+    color:red
+}
+.important{
+    color:blue
+}
+.warning.important{
+    color:red
+}
+p:last-of-type{
+    background: red;
+}
+h1:last-of-type{
+    background:green
+}
+input:in-range{
+    border:1px solid blue;
+}
